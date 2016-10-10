@@ -12,3 +12,5 @@ Entry.prototype.wordCount = function() {
   wordArray = this.body.split(" ");
   return wordArray.length;
 };
+
+exports.entryModule = Entry;

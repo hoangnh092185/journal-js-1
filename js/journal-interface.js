@@ -1,4 +1,4 @@
-
+var Entry = requre('./../js/journal.js').entryModule;
 
 $(document).ready(function(){
   $('#term-paper').submit(function(event){
@@ -10,7 +10,5 @@ $(document).ready(function(){
     var myEntry = new Entry(title, words);
     var result = myEntry.wordCount();
     console.log(result);
-
-
   });
 });
